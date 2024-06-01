@@ -1,0 +1,151 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #c1dfc4 0%, #deecdd 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #333;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.todo-app {
+    background: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    text-align: center;
+}
+
+.todo-app h1 {
+    color: #4CAF50;
+    margin-bottom: 1.5rem;
+}
+
+.task-input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+
+.task-input input {
+    width: 70%;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    margin-right: 0.5rem;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.task-input button {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.task-input button:hover {
+    background-color: #45a049;
+}
+
+.tasks {
+    text-align: left;
+    margin-bottom: 1.5rem;
+}
+
+.tasks h2 {
+    color: #4CAF50;
+    margin-bottom: 0.5rem;
+}
+
+.tasks ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.tasks ul li {
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tasks ul li.completed {
+    text-decoration: line-through;
+    color: #888;
+}
+
+.tasks ul li .buttons {
+    display: flex;
+    gap: 0.3rem;
+}
+
+.tasks ul li button {
+    background-color: #f44336;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 0.2rem 0.5rem;
+    transition: background-color 0.3s;
+}
+
+.tasks ul li button.edit {
+    background-color: #ff9800;
+}
+
+.tasks ul li button.complete {
+    background-color: #4CAF50;
+}
+
+.tasks ul li button.remove {
+    background-color: #f44336;
+}
+
+.tasks ul li button.move-back {
+    background-color: #2196F3;
+}
+
+.tasks ul li button:hover {
+    background-color: #ff6666;
+}
+
+.tasks ul li button.edit:hover {
+    background-color: #ffb347;
+}
+
+.tasks ul li button.complete:hover {
+    background-color: #66cdaa;
+}
+
+.tasks ul li button.remove:hover {
+    background-color: #ff6666;
+}
+
+.tasks ul li button.move-back:hover {
+    background-color: #64b5f6;
+}
+
+
+
+
+
+
